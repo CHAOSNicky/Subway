@@ -1,0 +1,131 @@
+/* * {
+    outline: 1px solid red;
+} */
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+   overflow-x: hidden;
+   overflow-y: hidden;
+   margin: 0;
+   padding: 0;
+}
+a{
+    text-decoration: none;
+    color: rgb(224, 165, 15);
+    /* text-shadow: .5px .5px 3px green; */
+}
+.subway{
+    
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/subwayimage.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.links{
+    font-family: monospace;
+    font-weight:bold;
+    font-size: x-large;
+    display: flex;
+    gap: 50px;
+margin-top: 15px;
+    margin-right: 50px;
+}
+
+
+nav a:hover{
+    color:green ;
+}
+/* nav a:active{
+    background-color: black;
+} */
+.first-half{
+    color: rgb(224, 165, 15);
+    /* text-shadow: 3px 3px 5px green; */
+}
+
+.second-half{
+    color: green;
+    position: relative;
+    right: 6px;
+    /* text-shadow: 1px 1px rgb(224,165,15); */
+}
+.font{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#grills{
+color:wheat;
+position: absolute;
+font-size: xx-large;
+top: 95px;
+left: 40px;
+}
+#goodness{
+    color:wheat;
+    position: absolute;
+    font-size: xx-large;
+    top: 135px;
+    left: 40px;
+}
+#goodness:hover{
+    color: green;
+}
+#taste{
+    color:wheat;
+    position: absolute;
+    font-size: xx-large;
+    top: 170px;
+    left: 40px;
+}
+#taste:hover{
+    color: green;
+}
+#oh{
+    color:rgb(224, 165, 15);
+    position: absolute;
+    font-size: xx-large;
+    top: 205px;
+    left: 42px;
+}
+
+.subcolour{
+    position:absolute;
+    font-family:sans-serif;
+    font-size:x-large;
+    top: 100px;
+    left: 40px;
+}
+
+img{
+    height: 30px;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+header{
+    
+    background-color:white;
+    height: 60px;
+}
+
+@media(max-width:615px) {
+    .subway{
+        background-image: url(/subimage1.jpg);
+    }
+}
+
+@media(max-width:518px) {
+    .links{
+        gap: 10px;
+    }
+}

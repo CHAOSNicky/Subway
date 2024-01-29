@@ -1,0 +1,135 @@
+.paradiv{
+    border: 1px solid black;
+    max-width: 700px;
+    min-width: 500px;
+}
+.para{
+    max-height: 400px;
+    overflow: scroll;
+    border: 1px solid blue;
+    width: 50%;
+    padding: 15px 15px 15px 15px;
+    margin-left: 15px ;
+}
+
+li{
+    display: inline;
+    margin: 5px; 
+}
+
+.services:hover{
+    color: pink;
+}
+
+.bluebox{
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+    position: sticky;
+    top: 0px;
+}
+
+.yellowbox{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    /* left: 75px;
+    bottom: 225px; */
+    top: 20px;
+}
+
+.flag{
+    width: 200px;
+    height: 100px;
+    margin: auto;
+    background: linear-gradient(to bottom,orange 33.33%,white 33.33%,white 66.66%,green 66.66%)
+}
+
+.outerbox{
+    
+    background-color: black;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerbox{
+    width: 100px;
+    height: 150px;
+    background-color:blue;
+    border: 2px solid white;
+    
+}
+
+.circle{
+    width: 30px;
+    /* height: 10px; */
+    position: relative;
+    top: 487px;
+    left: 250px;
+    
+}
+
+.obox{
+    background-color: antiquewhite;
+    width: 500px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 10vh 80vh 10vh;
+    grid-gap: 1px;
+    grid-auto-flow: row;
+    
+    
+    
+}
+.box{
+    background-color:steelblue;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    font-size: 1.5rem;
+}
+
+.box1{
+    grid-column: span 5;
+    
+}
+.box5{
+    grid-column: span 5;
+}
+.box3{
+    grid-column: span 3;
+}
+
+
+    * {
+      box-sizing: border-box;
+    }
+    
+    .boxxx {
+      float: left;
+      width: 33.33%;
+      padding: 50px;
+    }
+    
+    .clearfix::after {
+      content:""; 
+       clear:both; 
+       display: table;
+    }
+    
+    .boxx1{
+        background-color:#bbb;
+    }
+
+    .boxx2{
+        background-color:#ccc;
+    }
+    .boxx3{
+        background-color:#ddd;
+    }
